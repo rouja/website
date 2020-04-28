@@ -1,0 +1,10 @@
+baseURL: "/"
+title: "My First Blog"
+defaultContentLanguage: "fr"
+languages:
+  fr:
+    lang: "fr"
+    languageName: "French"
+    weight: 1
+MetaDataFormat: "yaml"
+theme: rouaje
