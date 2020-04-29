@@ -1,10 +1,16 @@
 baseURL: "/"
-title: "My First Blog"
-defaultContentLanguage: "fr"
+title: "My Personnal Documentation"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 languages:
-  fr:
-    lang: "fr"
-    languageName: "French"
-    weight: 1
+  en:
+    lang: "en"
+    languageName: "English"
+    weight: 2
 MetaDataFormat: "yaml"
-theme: rouaje
+theme: hugo-theme-learn
