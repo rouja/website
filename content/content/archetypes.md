@@ -1,21 +1,21 @@
 ---
-title: Archétypes
+title: Archetypes
 weight: 10
 ---
 
-En utilisant la commande: `hugo new [chemin vers nouveau contenu]`, vous pouvez créer un nouveau fichier avec la date et le title automatiquement initialisé. Même si c'est une fonctionnalité intéressante, elle reste limitée pour les auteurs actifs qui ont besoin de mieux : les [archetypes](https://gohugo.io/content/archetypes/).
+Using the command: `hugo new [relative new content path]`, you can start a content file with the date and title automatically set. While this is a welcome feature, active writers need more : [archetypes](https://gohugo.io/content/archetypes/).
 
-Les archétypes sont des squelettes de pages préconfigurées avec un Front Matter par défaut. Merci de vous référer à la documentation pour connaitre les différents types de page.
+It is pre-configured skeleton pages with default front matter. Please refer to the documentation for types of page to understand the differences.
 
-## Chapitre {#archetypes-chapter}
+## Chapter {#archetypes-chapter}
 
-Pour créer un chapitre, lancez les commandes suivantes
+To create a Chapter page, run the following commands
 
 ```
 hugo new --kind chapter <name>/_index.md
 ```
 
-Cela crééra une page avec le Front Matter suivant:
+It will create a page with predefined Front-Matter:
 
 ```markdown
 +++
@@ -33,18 +33,18 @@ pre = "<b>X. </b>"
 Lorem Ipsum.
 ```
 
-## Défaut
+## Default
 
-Pour créer une page classique, lancer l'une des deux commandes suivantes
+To create a default page, run either one of the following commands
 
 ```
-# Soit
+# Either
 hugo new <chapter>/<name>/_index.md
-# Ou
+# Or
 hugo new <chapter>/<name>.md
 ```
 
-Cela crééra une page avec le Front Matter suivant:
+It will create a page with predefined Front-Matter:
 
 ```markdown
 +++
