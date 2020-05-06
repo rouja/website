@@ -30,3 +30,11 @@ retention:
 ```
 borgmatic --verbosity 1 -c ~/.config/borgmatic/config.yaml
 ```
+
+## Restore a file
+
+```
+mkdir ~/mnt
+borgmatic --verbosity 1 -c ~/.config/borgmatic/config.yaml list 
+borgmatic -c ~/.config/borgmatic/config.yaml mount --archive "$ARCHIVE_NAME" --mount-point ~/mnt
+```
