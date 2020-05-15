@@ -19,3 +19,9 @@ Don't forget to set the resolution at least to 300 pixels/in.
 ```
 pdfunite page-* $NEW_PDF.pdf
 ```
+
+## Compress a pdf
+
+```
+convert -density 200x200 -quality 60 -compress jpeg inpud.pdf output.pdf
+```
